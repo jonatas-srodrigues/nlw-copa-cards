@@ -13,13 +13,16 @@ let delay = -0.4; //Surgimento inteligente (dinâmico).
 /* Criando função para CRIAÇÃO DE CARD - UNITÁRIO */
 function createCard(date, day, game) {
     delay = delay + 0.4;
+    delay1 = delay +0.6;
     return `
+    <section style="animation-delay: ${delay1}s">
         <div class="card" style="animation-delay: ${delay}s">
             <!--DATA DO CARD-->
             <h2>${date}<span>${day}</span></h2>
             <ul>${game}</ul>
             
         </div>
+    </section>
     `
 }
 
