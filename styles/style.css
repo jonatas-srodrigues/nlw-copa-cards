@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #121214; /*Definindo cor do fundo*/
+    background-image: url(../assets/bg-green.svg); /*Definindo imagem de fundo*/
+    background-position-x: center;
+    background-position-y: 55%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+
+ul {
+    margin-top: 32px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#app {
+    width: fit-content;
+    margin: 52px 0px auto;
+}
+
+#app header {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#app header img {
+    scale: 1.25;
+}
+
+#cards {
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #1d1c19;
+    border-radius: 16px;
+    border-bottom: 3px solid #047c3f;
+    width: auto;
+    min-height: auto;
+    margin: 8px;
+    padding: 32px 23px;
+    text-align: center;
+    box-shadow: 0px 0px 15px #00000050;
+    animation: appear 0.4s forwards;
+    opacity: 0;
+}
+
+.card h2 {
+    color: #ffe46b;
+    font-size: 30px;
+    border: 1px solid #635100;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 6px 14px;
+    width: fit-content;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.card h2:hover {
+    background: #f1f1f130;
+    border: 1px solid #f1f1f100;
+}
+
+.card span {
+    color: #fff;
+    font-size: 20px;
+}
+
+.card li img{
+    height: 55px;
+    width: 55px;
+}
+
+li {
+    color: #fff;
+    font-size: 38px;
+    line-height: 125%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 8px;
+    transition: 50ms linear;
+}
+
+li:hover {
+    transform: scale(1.05);
+    transition: 50ms linear; 
+    background: #ffd9001c;
+    border: 0px solid #ffffff00;
+}
+
+.card ul li + li {
+    border-top: 1px solid #ffffff30;
+    padding-top: 16px;
+}
+
+@keyframes appear {
+    0% {
+        transform: translateY(-10px);
+        opacity:0;
+    }
+
+    100% {
+        opacity:1;
+    }
+}
+
+@media only screen and (max-width: 746px) {
+
+    #cards{
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .card{
+        width: 90%;
+    }
+
+    
+  }
