@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body{
@@ -42,6 +43,7 @@ ul {
     width: fit-content;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
@@ -132,7 +134,7 @@ li:hover {
     }
 }
 
-@media only screen and (max-width: 746px) {
+@media only screen and (max-width: 810px) {
 
     #cards{
         justify-content: center;
@@ -140,9 +142,14 @@ li:hover {
         padding: 0;
         margin: 0;
     }
+
+    section {
+        width: 85%;
+    }
+
     .card{
-        width: 90%;
+        width: 100%;
     }
 
     
-  }
+}

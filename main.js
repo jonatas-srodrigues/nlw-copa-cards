@@ -37,6 +37,32 @@ document.querySelector('#cards').innerHTML =
     ) +
 
     createCard(   
+        '21/11',
+        'SEGUNDA',
+        `${createGame('england','ira','10:00')}` +
+        `${createGame('senegal','netherlands','13:00')}` +
+        `${createGame('unitedstates','gales','16:00')}` 
+    ) +
+
+    createCard(   
+        '22/11',
+        'TERÇA',
+        `${createGame('argentina','saudi','07:00')}` +
+        `${createGame('denmark','tunisia','10:00')}` +
+        `${createGame('mexico','poland','13:00')}` +
+        `${createGame('france','australia','16:00')}`
+    ) +
+    
+    createCard(   
+        '23/11',
+        'QUARTA',
+        `${createGame('morocco','croatia','07:00')}` +
+        `${createGame('german','japan','10:00')}` +
+        `${createGame('spain','costarica','13:00')}` +
+        `${createGame('belgium','canada','16:00')}`
+    ) +
+
+    createCard(   
         '24/11',
         'QUINTA',
         `${createGame('switzerland','cameroon','07:00')}` +
@@ -44,16 +70,39 @@ document.querySelector('#cards').innerHTML =
         `${createGame('portugal','ghana','13:00')}` +
         `${createGame('brazil','serbia','16:00')}`
     ) +
-    
+
     createCard(   
         '25/11',
         'SEXTA',
-        `${createGame('catar','unitedkingdom','16:00')}` 
+        `${createGame('gales','ira','07:00')}` +
+        `${createGame('catar','senegal','10:00')}` +
+        `${createGame('netherlands','ecuador','13:00')}` +
+        `${createGame('england','unitedstates','16:00')}`
     ) +
 
     createCard(   
+        '26/11',
+        'SÁBADO',
+        `${createGame('tunisia','australia','07:00')}` +
+        `${createGame('poland','saudi','10:00')}` +
+        `${createGame('france','denmark','13:00')}` +
+        `${createGame('argentina','mexico','16:00')}`
+    ) +
+
+    createCard(   
+        '27/11',
+        'DOMINGO',
+        `${createGame('japan','costarica','07:00')}` +
+        `${createGame('belgium','morocco','10:00')}` +
+        `${createGame('croatia','canada','13:00')}` +
+        `${createGame('spain','german','16:00')}`
+    ) +
+    
+    createCard(   
         '28/11',
         'SEGUNDA',
+        `${createGame('cameroon','serbia','07:00')}` +
+        `${createGame('southkorea','ghana','10:00')}` +
         `${createGame('switzerland','brazil','13:00')}` +
         `${createGame('portugal','uruguai','16:00')}`
     ) +
