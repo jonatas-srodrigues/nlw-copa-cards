@@ -26,14 +26,14 @@ function createCard(date, day, game) {
     `
 }
 
-/* Estrutura do HTML para exportação */
+/* Estrutura do JSX para exportação - Injeção de dados*/
 
-document.querySelector('#cards').innerHTML = 
+const Cards = (
 
     createCard(   
-        '20/11',
-        'DOMINGO',
-        `${createGame('catar','ecuador','13:00')}` 
+    '20/11',
+    'DOMINGO',
+    `${createGame('catar','ecuador','13:00')}` 
     ) +
 
     createCard(   
@@ -52,7 +52,7 @@ document.querySelector('#cards').innerHTML =
         `${createGame('mexico','poland','13:00')}` +
         `${createGame('france','australia','16:00')}`
     ) +
-    
+
     createCard(   
         '23/11',
         'QUARTA',
@@ -97,7 +97,7 @@ document.querySelector('#cards').innerHTML =
         `${createGame('croatia','canada','13:00')}` +
         `${createGame('spain','german','16:00')}`
     ) +
-    
+
     createCard(   
         '28/11',
         'SEGUNDA',
@@ -112,3 +112,8 @@ document.querySelector('#cards').innerHTML =
         'SEXTA',
         `${createGame('brazil','cameroon','16:00')}`
     )
+)
+
+
+document.querySelector('#cards').innerHTML = Cards;
+

@@ -123,6 +123,17 @@ li:hover {
     padding-top: 16px;
 }
 
+footer {
+    color: #fff;
+    padding: 20px;
+    background: #ffffff25;
+    bottom: 0;
+    position: static;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
 @keyframes appear {
     0% {
         transform: translateY(-10px);
