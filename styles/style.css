@@ -7,7 +7,7 @@
 
 body{
     background-color: #121214; /*Definindo cor do fundo*/
-    background-image: url(../assets/app-bg.png); /*Definindo imagem de fundo*/
+    background-image: url(../assets/bg-green.svg); /*Definindo imagem de fundo*/
     background-position-x: center;
     background-position-y: 55%;
     background-repeat: no-repeat;
