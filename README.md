@@ -19,7 +19,7 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 <br>
 
 <p align="center">
-  <img alt="presentation image" src="" width="100%">
+  <img alt="presentation image" src="./assets/banner.jpg" width="100%">
 </p>
 
 ## :computer: Tecnologias
@@ -50,4 +50,4 @@ Você pode visualizar o layout do projeto através desse [link](https://www.figm
 Esse projeto está sob a licença MIT.
 
 
-Ensinado com :blue_heart: pela Rocketseat e acompanhado com +:blue_heart: por Jônatas Rodrigues. [Participe da comunidade Rocketseat!](https://discord.gg/rocketseat)
+<p align="center">Ensinado com :blue_heart: pela Rocketseat e acompanhado com +:blue_heart: por Jônatas Rodrigues. [Participe da comunidade Rocketseat!](https://discord.gg/rocketseat)</p>
