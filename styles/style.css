@@ -65,7 +65,7 @@ section {
     padding-bottom: 4px;
     border-radius: 16px;
     margin: 12px;
-    box-shadow: 0px 0px 10px 2px #00000030;
+    box-shadow: 0px 0px 10px 3px #00000030;
     animation: appear 0.4s forwards;
     opacity: 0;
 }
