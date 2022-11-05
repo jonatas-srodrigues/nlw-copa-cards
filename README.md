@@ -50,4 +50,4 @@ Você pode visualizar o layout do projeto através desse [link](https://www.figm
 Esse projeto está sob a licença MIT.
 
 
-Ensinado com :blue_heart: pela Rocketseat e acompanhado com +:blue_heart: por Jônatas Rodrigues. [Participe da comunidade Rocketseat!](https://discord.gg/rocketseat)
+<p align="center">Ensinado com :blue_heart: pela Rocketseat e acompanhado com +:blue_heart: por Jônatas Rodrigues. [Participe da comunidade Rocketseat!](https://discord.gg/rocketseat)</p>
