@@ -40,11 +40,6 @@ O Calendário de Jogos permite que você verifique e acompanhe os dias e horári
 
 Você pode visualizar o layout do projeto através desse [link](https://www.figma.com/file/gpqavL469k0pPUGOmAQEM9/Explorer-Lab-%2301/duplicate). Não esqueça de avaliar o projeto.
 
-## :tada: Extensão
-
-- <p><img alt="Status" src="https://img.shields.io/badge/%20-em%20constru%C3%A7%C3%A3o-ffed00"> Incorporar o "Calendários de Jogos" com o App Web desenvolvido na NLW Trilha Ignite.</p>
-- <p><img alt="Status" src="https://img.shields.io/badge/%20-em%20constru%C3%A7%C3%A3o-ffed00"> Desenvolver, de forma mais ampla, o projeto do NLW Trilha Ignite.</p>
-
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.
